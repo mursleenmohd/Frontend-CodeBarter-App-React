@@ -1,16 +1,40 @@
-# React + Vite
+# CodeBarter 
+**A Futuristic Skill-Swap Network for Developers**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeBarter is a professional web application designed to empower developers to assist one another and exchange technical skills. The platform features an advanced UI and a seamless developer-centric experience.
 
-Currently, two official plugins are available:
+##  Key Features
+- **Professional Dashboard:** Track developer requests and community activity in real-time.
+- **Dual Theme Support:** High-quality **Dark Mode** and a clean, enterprise-grade **Light Mode** inspired by SCADA systems.
+- **Futuristic AI Assistant:** An interactive AI bubble and chat window providing on-platform guidance.
+- **Monaco Editor Integration:** Built-in professional code editor (the same one used in VS Code) for posting snippets and debugging requests.
+- **Responsive Navigation:** Fully optimized for both desktop and mobile users with a dedicated sidebar drawer.
+- **Gamification System:** Includes a Leaderboard to recognize and reward top community contributors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Core Library:** React.js (Powered by Vite)
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Styling:** Custom CSS with Modern Variables & Glassmorphism
+- **Notifications:** React-Toastify for real-time alerts
+- **Code Editor:** Monaco Editor for React
 
-## React Compiler
+##  Project Structure
+```text
+code-barter-app/
+├── public/              # Static assets (logos, icons)
+├── src/
+│   ├── components/      # Reusable UI elements (RequestCard)
+│   ├── pages/           # Main views (Landing, Dashboard, Auth, Profile)
+│   ├── App.css          # Global and component-specific CSS
+│   ├── App.jsx          # Main application logic and routing, Navbar, sidebar
+│   └── main.jsx         # Application entry point
+├── package.json         # Project dependencies and scripts
+├── vite.config.js       # Vite configuration
+└── README.md            # Project documentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+To run the project locally on your machine:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mursleenmohd/code-barter-react.git](https://github.com/mursleenmohd/code-barter-react.git)
